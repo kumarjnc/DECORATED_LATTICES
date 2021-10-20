@@ -1,5 +1,5 @@
 # Summary 
-## Code to calculate dispersion, density of state (DOS), local density of state (LDOS) of decorated lattices solving tight binding models
+## Code to calculate dispersion, density of state (DOS), local density of state (LDOS) of decorated square lattices solving tight binding models.
 
 ### Installation
 ```bash
