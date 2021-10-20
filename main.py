@@ -16,7 +16,7 @@ log=np.log
 def band(t1,t2,a,Nk,density,mass,dim,totomega,m,sigma,square=True):
     print (t1,t2,a,Nk)
     if square:
-        assert (t1 > 0), "Only positive hopping are allowed!"
+        assert (t1 > 0), "Only positive hopping are possible!"
         print('Band structure plot of the square lattice with nearest and next nearest neighbour hopping bl......')
         gap1=np.zeros((Nk,Nk))
         gap2=np.zeros((Nk,Nk))
